@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css" />
     <title>Shoes Store</title>
   </head>
   <body>
     <header class="container">
       <img src="img/logo-color.png" alt="Logo" />
-      <nav>
+      <nav class="nav-header">
         <a class="nav-link" href="#">Todos os Produtos</a>
         <a class="nav-link" href="#">Coleções</a>
         <a class="nav-link" href="#">Outlet</a>
@@ -56,20 +54,26 @@
         </div>
       </section>
       <section class="detalhes">
-        <div>
-          <h3>sandália palmilha matelassê tiras rolotê</h3>
-          <p>ver detalhes</p>
+        <div class="detalhes-esq">
+          <div>
+            <h3>sandália palmilha matelassê tiras rolotê</h3>
+            <button type="button">ver detalhes</button>
+          </div>
+          <div class="img3">
+            <img src="img/photoshoot-3.png" alt="Shoe photo">
+          </div>
         </div>
-        <img class="img3" src="img/photoshoot-3.png" alt="Shoe photo">
-        <img class="img4" src="img/photoshoot-4.png" alt="Clotes em shoe photo">
+        <div class="img4">
+          <img src="img/photoshoot-4.png" alt="Clotes em shoe photo">
+        </div>
       </section>
     </main>
-    <footer class="footer">
-      <nav>
+    <footer class="container">
         <div>
           <img src="img/logo-white.png" alt="logo-white">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
+        <nav class="nav-footer">
         <ul>
           <li class="destaque">categorias</li>
           <li><a href="#">sandálias</a></li>
@@ -84,10 +88,10 @@
           <li><a href="#">perguntas frequentes</a></li>
           <li><a href="#">política de privacidade</a></li>
           <li><a href="#">rastreamento de pedidos</a></li>
-          <li><a href="#">trabalhe conosco</a></li>
+          <li><a href="trabalhe.html">trabalhe conosco</a></li>
           <li><a href="#">contato</a></li>
         </ul>
-      </nav>    
+        </nav>    
     </footer>
   </body>
 </html>
