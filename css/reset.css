@@ -50,3 +50,80 @@ button {
     border:none;
     background-color: none;
 }
+
+/* header */
+
+body {
+	font-family: "Open Sans", sans-serif;
+  }
+  
+  .container {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+  }
+  
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+  }
+  
+  .nav-header {
+	margin-right: 20px;
+  }
+  
+  .nav-link {
+	color: #777;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 16px;
+  }
+  
+  .banner {
+	background-image: url("../img/banner.png");
+	height: 235px;
+  }
+
+  /* footer */
+
+  .footer {
+	background-color: #c2185b;
+	color: #fff;
+	padding: 10px 110px 30px;
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+  }
+  
+  .footer a {
+	color: #fff;
+	text-decoration: none;
+  }
+
+  .footer h3 {
+	font-weight: 900;
+  }
+  
+  .footer .container {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .footer .container div:first-of-type {
+	width: 25%;
+  }
+  
+  .categorias,
+  .institucional {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 10px;
+  }
+
+  .institucional {
+	  margin-right: 100px;
+  }
